@@ -1,0 +1,44 @@
+@import "Colours";
+
+nav {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(151 205 229 / 67%);
+    font: 900 1.3rem "Roboto";
+    top: 0%;
+    z-index: 10;
+
+    
+    > h1 {
+        font-weight: 900;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    >img{
+        width: 50px;
+        height: 50px;
+        margin-right: -30px;
+        cursor: pointer;
+    }
+    
+> main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+    > a {
+        color: black;
+        margin: 1rem;
+        font-size: larger;
+        
+      &:hover {
+         color: $first;
+        }
+    }
+}
+}

@@ -1,0 +1,50 @@
+@import "Colours";
+
+footer {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 100%;
+    color: black;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+    
+   
+    > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        > h1{
+            font: 1200 5rem "Roboto";
+            text-transform: uppercase;
+            color:$third;
+        
+        > p{
+            font: 900 2rem "Roboto";
+            text-transform: uppercase;
+        }
+        
+           
+    }
+    > h5{
+        font: 600 2rem "Roboto";
+        margin: 1rem 0;
+        text-align: center;
+    }
+    > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        >a {
+            columns: black;
+            font: 900 1rem "Roboto";
+            padding-bottom: 3px;
+            
+        }
+} 
+}
+}
